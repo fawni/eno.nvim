@@ -10,6 +10,7 @@ Using [lazy.nvim](https://github.com/folke/lazy.nvim):
 {
     url = "git@codeberg.org:fawn/eno.nvim.git",
     dependencies = { "nvim-treesitter/nvim-treesitter" },
+    event = "BufReadPre *.eno",
     opts = {},
 }
 ```
