@@ -8,7 +8,7 @@ Using [lazy.nvim](https://github.com/folke/lazy.nvim):
 
 ``` lua
 {
-    url = "git@codeberg.org:fawn/eno.nvim.git",
+    "fawni/eno.nvim",
     dependencies = { "nvim-treesitter/nvim-treesitter" },
     event = "BufReadPre *.eno",
     opts = {},
